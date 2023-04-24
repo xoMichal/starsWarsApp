@@ -17,7 +17,7 @@ export const useStyles = makeStyles(theme => ({
   },
   characterListContainer: {
     paddingRight: theme.spacing(2),
-    paddingLeft: theme.spacing(2),
+     paddingLeft: theme.spacing(2),
     borderRight: `1px solid ${theme.palette.divider}`,
     [theme.breakpoints.down('sm')]: {
       paddingRight: 0,
@@ -38,7 +38,7 @@ export const useStyles = makeStyles(theme => ({
     maxWidth: '1600px',
     margin: '0px',
     padding: '16px',
-    justifyContent:'center'
+    justifyContent:'left'
 
   },
 }));
