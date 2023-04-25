@@ -1,4 +1,6 @@
+import { grey } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles(theme => ({
   searchContainer: {
@@ -38,7 +40,40 @@ export const useStyles = makeStyles(theme => ({
     maxWidth: '1600px',
     margin: '0px',
     padding: '16px',
-    justifyContent:'left'
-
-  },
+    justifyContent:'left',
+      },
 }));
+
+
+
+
+export const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#F8BB0C',
+    },
+    secondary: {
+      main: '#FA8231',
+    },
+    error: {
+      main: '#F012BE',
+    },
+    background: {
+      default: grey[800],
+      paper: '#333333',
+    },
+    text: {
+      primary: '#FFFFFF',
+      secondary: '#B1B1B1',
+    },
+  },
+  
+  typography: {
+    fontFamily: 'Montserrat, sans-serif',
+    h5: {
+      fontWeight: 'bold',
+      letterSpacing: '0.03em',
+      textTransform: 'uppercase',
+    },
+  },
+});
