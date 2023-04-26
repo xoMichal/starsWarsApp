@@ -42,9 +42,6 @@ const App: React.FC = () => {
   }
 
   const handleCharacterClick = async (character: Character) => {
-    const response = await fetch(character.homeworld);
-    const data = await response.json();
-    const homeworldPopulation = data.population;
     const movieUrls = character.films as string[];
     const movieResponses = await Promise.all(movieUrls.map(url => fetch(url)));
     const movieData = await Promise.all(movieResponses.map(response => response.json()));
