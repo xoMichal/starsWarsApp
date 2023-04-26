@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/starWarsApp/static/css/main.e6c13ad2.css",
-    "main.js": "/starWarsApp/static/js/main.c13319f0.js",
-    "static/js/787.38f4b4d9.chunk.js": "/starWarsApp/static/js/787.38f4b4d9.chunk.js",
-    "index.html": "/starWarsApp/index.html",
-    "main.e6c13ad2.css.map": "/starWarsApp/static/css/main.e6c13ad2.css.map",
-    "main.c13319f0.js.map": "/starWarsApp/static/js/main.c13319f0.js.map",
-    "787.38f4b4d9.chunk.js.map": "/starWarsApp/static/js/787.38f4b4d9.chunk.js.map"
+    "main.css": "/starsWarsApp/static/css/main.e6c13ad2.css",
+    "main.js": "/starsWarsApp/static/js/main.991d60a9.js",
+    "static/js/787.38f4b4d9.chunk.js": "/starsWarsApp/static/js/787.38f4b4d9.chunk.js",
+    "index.html": "/starsWarsApp/index.html",
+    "main.e6c13ad2.css.map": "/starsWarsApp/static/css/main.e6c13ad2.css.map",
+    "main.991d60a9.js.map": "/starsWarsApp/static/js/main.991d60a9.js.map",
+    "787.38f4b4d9.chunk.js.map": "/starsWarsApp/static/js/787.38f4b4d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c13319f0.js"
+    "static/js/main.991d60a9.js"
   ]
 }
